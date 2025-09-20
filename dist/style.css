@@ -1,0 +1,61 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9fafb;
+  color: #333;
+}
+h1, h2 {
+  color: #2563eb;
+  text-align: center;
+}
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #eef2ff;
+}
+.hero .sub {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #555;
+}
+button {
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.steps, .benefits, .usecases, .demo {
+  padding: 40px 20px;
+  max-width: 700px;
+  margin: auto;
+}
+.step, .benefits ul li, .usecases ul li {
+  margin: 10px 0;
+}
+.chatbox {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+}
+#chat-window {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #fafafa;
+}
+#chat-input {
+  width: 70%;
+  padding: 8px;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #e5e7eb;
+  margin-top: 40px;
+}
